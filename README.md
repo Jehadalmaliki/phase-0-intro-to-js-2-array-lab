@@ -63,3 +63,15 @@ Remember the workflow:
 
 After you have all the tests passing, remember to commit and push your changes
 up to GitHub, then submit your work to Canvas using CodeGrade.
+
+#solution :
+
+The "appendCat" function takes a single argument, "name," which represents the name of the cat to be appended to the array. It uses the Array.prototype.concat() method to create and return a new array that is the result of concatenating the "name" argument to the "cats" array.
+
+The "prependCat" function works similarly, but uses the Array.prototype.concat() method to create and return a new array that is the result of concatenating a new array containing the "name" argument to the "cats" array.
+
+The "removeLastCat" function uses the Array.prototype.slice() method to create and return a new array that is a copy of the "cats" array, with the last element removed.
+
+The "removeFirstCat" function works similarly, but uses the Array.prototype.slice() method to create and return a new array that is a copy of the "cats" array, with the first element removed.
+
+I hope this helps clarify the implementation of these functions! Let me know if you have any additional questions.
